@@ -4,7 +4,7 @@
 fprintf('\nRunning K-Means clustering on pixels from an image.\n\n');
 
 %  Load an image, supply the path
-A = double(imread('sample_image.jpg'));
+A = double(imread('sample_image2.jpg'));
 A = A / 255; % Divide by 255 so that all values are in the range 0 - 1
 
 % Size of the image
